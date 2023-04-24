@@ -5,9 +5,9 @@ var e = (name2.length - name1.length)   //varible that subtracts name2 to name1
 var t = (name1.length - name2.length)
 
 if (name1.length < name2.length) {
-    console.log(name1, "name is shorter than", name2, "by", e, "character");
+    console.log(`${name1} name is shorter than ${name2} by ${e} character`);
 }
 else if (name1.length > name2.length) {
-    console.log(name1,'is longer than', name2, "by", t, "characters")
+    console.log(`${name1} name is longer than ${name2} by ${t} character`)
 }
 

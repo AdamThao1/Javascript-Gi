@@ -4,4 +4,4 @@ var num1 = 7;
 var num2 = 3;
 
 var result = num1 - num2
-console.log(result)
+console.log(`The difference between ${num1} and ${num2} is ${result}`)
